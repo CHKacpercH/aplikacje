@@ -1,0 +1,11 @@
+<h1>wyświetlanie tekstu w CANVAS</h1>
+
+<canvas id="myCanvas" width="300" height="300"></canvas>
+
+<script>
+var canvas = document.getElementById('myCanvas');        
+var ctx = canvas.getContext('2d');
+
+ctx.font = "12px serif";
+ctx.fillText("Hello World", 10,50);
+</script>
